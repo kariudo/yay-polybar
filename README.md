@@ -1,4 +1,4 @@
-# Script: updates-arch-yay
+# Yay Polybar 
 
 A script that shows the total available updates for Arch Linux using `yay`.
 Includes optional click actions to display a notification of available updates
