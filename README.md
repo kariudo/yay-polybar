@@ -28,10 +28,10 @@ Optional left and right click actions required:
 ```ini
  [module/updates]
  type = custom/script
- exec = ~/code/polybar-scripts/polybar-scripts/updates-arch-yay/updates-arch-yay.sh
+ exec = ~/code/yay-polybar/updates-arch-yay.sh
  interval = 600
- click-left = i3-msg exec ~/code/polybar-scripts/polybar-scripts/updates-arch-yay/notify-updates.sh
- click-right = i3-msg exec ~/code/polybar-scripts/polybar-scripts/updates-arch-yay/prompt-updates.sh
+ click-left = i3-msg exec ~/code/yay-polybar/notify-updates.sh
+ click-right = i3-msg exec ~/code/yay-polybar/prompt-updates.sh
 ```
 ### Notify Updates
 
