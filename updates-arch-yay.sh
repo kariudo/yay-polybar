@@ -5,7 +5,7 @@
 yay -Sy > /dev/null
 
 # Get list and count of updates
-if ! updates=$(yay -Qu | wc -l); then
+if ! updates=$((checkupdates; yay -Qum) | wc -l); then
     updates=0
 fi
 
